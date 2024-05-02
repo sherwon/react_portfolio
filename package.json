@@ -1,11 +1,11 @@
 {
+	"homepage": "https://sherwon.github.io/react_portfolio",
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio built using Reactjs",
 	"author": {
 		"name": "Sherwin Sayo",
-		"email": "sherwin.sayo@outlook.com",
-		"url": "https://6622229d6d58fc9b15842cc0--kaleidoscopic-elf-0d51a6.netlify.app/"
+		"email": "sherwin.sayo@outlook.com"
 	},
 	"license": "MIT",
 	"private": true,
@@ -36,7 +36,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -61,6 +63,7 @@
 		"tabWidth": 4
 	},
 	"devDependencies": {
+		"gh-pages": "^6.1.1",
 		"tailwindcss": "^3.4.3"
 	}
 }
