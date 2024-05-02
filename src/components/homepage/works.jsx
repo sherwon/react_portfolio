@@ -4,6 +4,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 
 import "./styles/works.css";
+import tlci from "../../assets/tlci.png";
 
 const Works = () => {
 	return (
@@ -32,7 +33,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./tlci.png"
+								src={tlci}
 								alt="twitter"
 								className="work-image"
 							/>

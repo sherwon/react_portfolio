@@ -23,9 +23,9 @@ import freeTraining from "../data/freeTraining";
 
 import "./styles/homepage.css";
 import "./styles/box.css";
-import ImageSlider from "../components/common/imageSlider";
+// import ImageSlider from "../components/common/imageSlider";
 
-import DarkVariantExample from "./carousel";
+import sherwin from "../assets/sherwin(1).png";
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
@@ -118,7 +118,7 @@ const Homepage = () => {
 										<div className="homepage-image-container">
 											<div className="homepage-image-wrapper">
 												<img
-													src="sherwin(1).png"
+													src={sherwin}
 													alt="about"
 													className="homepage-image"
 												/>
@@ -206,7 +206,7 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
-						<div className="carousel">
+						{/* <div className="carousel">
 							<div
 								className="title homepage-title"
 								data-aos="fade-right"
@@ -214,7 +214,7 @@ const Homepage = () => {
 								Certifications
 							</div>
 							<ImageSlider />
-						</div>
+						</div> */}
 						<div
 							className="homepage-projects"
 							data-aos="fade-right"

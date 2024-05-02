@@ -10,7 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
-
+import sherwin from "../assets/sherwin(1).png";
 const About = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -51,7 +51,7 @@ const About = () => {
 								>
 									<div className="about-image-wrapper">
 										<img
-											src="sherwin(1).png"
+											src={sherwin}
 											alt="about"
 											className="about-image"
 										/>
