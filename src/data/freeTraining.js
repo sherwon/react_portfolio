@@ -7,10 +7,10 @@ function training_1() {
 		description:
 			"With Billions of Devices Now Online, New Threats Pop-up Every Second",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Cybersecurity",
+			"Cybersecurity",
+			"Cybersecurity",
+			"Cybersecurity",
 		],
 		style: `
 				.article-content {

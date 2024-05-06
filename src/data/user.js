@@ -62,7 +62,7 @@ const INFO = {
 		{
 			title: "Top Anime",
 			description:
-				"This project consists solely of HTML and CSS. However, the purpose of this practice is to achieve device responsiveness and browser compatibility. For responsiveness, the techniques utilized are CSS grid and flex.",
+				"This project consists solely of HTML and CSS. However, the purpose of this practice is to achieve device responsiveness and browser compatibility. For responsiveness, the techniques utilized are CSS media queries, grid and flex.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://6630a2217519e992454bfd89--relaxed-sable-25fdc6.netlify.app/",

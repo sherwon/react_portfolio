@@ -15,7 +15,7 @@ import "./app.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import $ from "jquery";
 function App() {
 	useEffect(() => {
 		if (TRACKING_ID !== "") {

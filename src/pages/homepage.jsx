@@ -16,7 +16,7 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-
+import Skills from "../components/common/Skills";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import freeTraining from "../data/freeTraining";
@@ -206,6 +206,7 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
+
 						{/* <div className="carousel">
 							<div
 								className="title homepage-title"
@@ -215,6 +216,9 @@ const Homepage = () => {
 							</div>
 							<ImageSlider />
 						</div> */}
+						<div>
+							<Skills />
+						</div>
 						<div
 							className="homepage-projects"
 							data-aos="fade-right"
