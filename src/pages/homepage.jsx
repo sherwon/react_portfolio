@@ -26,6 +26,7 @@ import "./styles/box.css";
 // import ImageSlider from "../components/common/imageSlider";
 
 import sherwin from "../assets/sherwin(1).png";
+import whoIamI from "../assets/whoIamI.png";
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
@@ -71,6 +72,12 @@ const Homepage = () => {
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
 	};
 
+	const [services, setService] = useState([
+		"Front-end Development",
+		"Back-end Development",
+		"Full-stack Development",
+	]);
+
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -87,9 +94,9 @@ const Homepage = () => {
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<div class="squares">
-								<div class="square square-pulse"></div>
-								<div class="square1 square-pulse"></div>
+							<div className="squares">
+								<div className="square square-pulse"></div>
+								<div className="square1 square-pulse"></div>
 							</div>
 						</div>
 					</div>
@@ -184,7 +191,6 @@ const Homepage = () => {
 								<div className="custom-shape-divider-bottom-1713071918">
 									<svg
 										data-name="Layer 1"
-										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 1200 120"
 										preserveAspectRatio="none"
 									>
@@ -216,7 +222,47 @@ const Homepage = () => {
 							</div>
 							<ImageSlider />
 						</div> */}
+						<div className="intro">
+							{/* <div className="who">
+								<img src={whoIamI} alt="" />
+							</div>
+							<div className="desc">
+								<div className="title homepage-title">
+									Service offer
+								</div>
+								
+							</div> */}
+							<div className="title homepage-title">Services</div>
+							<section className="container">
+								<section className="card__container">
+									{services.map((service, index) => (
+										<div
+											className="card__bx card__1"
+											key={index}
+										>
+											<div className="card__data">
+												<div className="card__icon">
+													<div className="card__icon-bx">
+														<i className="fa-solid fa-pen-ruler"></i>
+													</div>
+												</div>
+												<div className="card__content">
+													<h3>{service}</h3>
+													{/* <p>
+													Lorem Ipsum is simply dummy
+													text of the printing and
+													typesetting industry.
+												</p> */}
+													<a href="#">Read More</a>
+												</div>
+											</div>
+										</div>
+									))}
+								</section>
+							</section>
+						</div>
 						<div>
+							<div className="title homepage-title">Skills</div>
 							<Skills />
 						</div>
 						<div

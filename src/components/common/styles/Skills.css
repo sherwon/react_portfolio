@@ -64,3 +64,6 @@
 		width: 100%;
 	}
 }
+.MuiCircularProgress-colorPrimary {
+	color: green !important;
+}
