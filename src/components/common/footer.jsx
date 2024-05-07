@@ -27,9 +27,6 @@ const Footer = () => {
 					</ul>
 				</div>
 			</div>
-			<div id="particles-js"></div>
-
-			<script src="particles.js"></script>
 		</React.Fragment>
 	);
 };
