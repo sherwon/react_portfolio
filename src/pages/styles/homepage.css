@@ -1,4 +1,11 @@
 @import "../../data/styles.css";
+*,
+*:after,
+*:before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
 .parent {
 	display: grid;
@@ -19,6 +26,7 @@
 .intro {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column-reverse;
 }
 .homepage-logo-container {
 	display: flex;
@@ -157,30 +165,23 @@
 }
 
 /*==================== BASE ====================*/
-*,
-*:after,
-*:before {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 /*==================== SERVICE CARD ====================*/
 .card__container {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 30px;
+	/* gap: 30px; */
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	width: 100%;
 	max-width: 100%;
 	margin: 40px auto;
 	height: auto !important;
 }
 .card__bx {
-	--bg-clr: #282828;
-	--txt-clr: #ffffff;
+	--bg-clr: #ffffff;
+	--txt-clr: #050303;
 	--btn-txt-clr: #333333;
 	--transition: all 0.5s;
 
@@ -272,8 +273,7 @@
 }
 .card__bx .card__data .card__content h3 {
 	font-size: 24px;
-	font-weight: 700;
-	letter-spacing: 2px;
+	font-family: var(--primary-font);
 	text-transform: uppercase;
 }
 .card__bx .card__data .card__content p {
@@ -286,7 +286,7 @@
 	padding: 10px 25px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: 600;
 	border-radius: 30px;
 	border: 2px solid var(--clr);
@@ -374,11 +374,14 @@
 		height: auto;
 	}
 	.parent {
-		display: grid;
-
 		height: auto;
 	}
-	.who {
-		width: 100%;
+	.div2 {
+		display: flex;
+		align-items: flex-end;
+	}
+	.homepage-socials,
+	.card__bx {
+		margin-top: 1rem;
 	}
 }

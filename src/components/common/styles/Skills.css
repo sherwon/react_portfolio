@@ -24,10 +24,10 @@
 	align-items: center;
 	justify-content: space-evenly;
 	flex-direction: column;
-	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+	/* box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); */
 }
 .wrapper .card:hover {
-	color: black;
+	color: #000000;
 	transform: translateY(-14px);
 	transition: background 1s, color 1s, transform 0.5s;
 }
@@ -38,15 +38,7 @@
 	border-radius: 50%;
 	cursor: default;
 }
-.skillcontainer .card .text {
-	font-family: var(--secondary-font);
-	color: var(--primary-color);
-	font-size: 16px;
-	padding-top: 15px;
-	margin-bottom: 1em;
-	font-weight: 700;
-	text-transform: capitalize;
-}
+
 @media (max-width: 753px) {
 	.skillcontainer .wrapper {
 		max-width: 700px;
@@ -66,4 +58,16 @@
 }
 .MuiCircularProgress-colorPrimary {
 	color: green !important;
+}
+.CircularProgressbar-path {
+	stroke: red;
+}
+.CircularProgressbar-trail {
+	stroke: gray;
+}
+.CircularProgressbar-text {
+	fill: yellow;
+}
+.CircularProgressbar-background {
+	fill: green;
 }

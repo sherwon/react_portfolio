@@ -233,6 +233,7 @@ const Homepage = () => {
 								
 							</div> */}
 							<div className="title homepage-title">Services</div>
+
 							<section className="container">
 								<section className="card__container">
 									{services.map((service, index) => (
