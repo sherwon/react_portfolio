@@ -10,23 +10,19 @@ import {
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import Logo from "../components/common/logo";
+import Certification from "../components/projects/certification";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-import Skills from "../components/common/Skills";
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import freeTraining from "../data/freeTraining";
 
 import "./styles/homepage.css";
 import "./styles/box.css";
 // import ImageSlider from "../components/common/imageSlider";
 
 import sherwin from "../assets/sherwin(1).png";
-import whoIamI from "../assets/whoIamI.png";
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
@@ -188,7 +184,7 @@ const Homepage = () => {
 							</div>
 
 							<div className="div2">
-								<div className="custom-shape-divider-bottom-1713071918">
+								<div className="custom-shape-divider-bottom-1713071918 reverse">
 									<svg
 										data-name="Layer 1"
 										viewBox="0 0 1200 120"
@@ -212,28 +208,7 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
-
-						{/* <div className="carousel">
-							<div
-								className="title homepage-title"
-								data-aos="fade-right"
-							>
-								Certifications
-							</div>
-							<ImageSlider />
-						</div> */}
-						<div className="intro">
-							{/* <div className="who">
-								<img src={whoIamI} alt="" />
-							</div>
-							<div className="desc">
-								<div className="title homepage-title">
-									Service offer
-								</div>
-								
-							</div> */}
-							<div className="title homepage-title">Services</div>
-
+						{/* <div className="intro">
 							<section className="container">
 								<section className="card__container">
 									{services.map((service, index) => (
@@ -249,11 +224,7 @@ const Homepage = () => {
 												</div>
 												<div className="card__content">
 													<h3>{service}</h3>
-													{/* <p>
-													Lorem Ipsum is simply dummy
-													text of the printing and
-													typesetting industry.
-												</p> */}
+
 													<a href="#">Read More</a>
 												</div>
 											</div>
@@ -261,11 +232,7 @@ const Homepage = () => {
 									))}
 								</section>
 							</section>
-						</div>
-						<div>
-							<div className="title homepage-title">Skills</div>
-							<Skills />
-						</div>
+						</div> */}
 						<div
 							className="homepage-projects"
 							data-aos="fade-right"
@@ -277,10 +244,20 @@ const Homepage = () => {
 						</div>
 
 						<div
+							className="homepage-projects"
+							data-aos="fade-right"
+						>
+							<div className="title homepage-title">
+								Online Certification
+							</div>
+							<Certification />
+						</div>
+
+						<div
 							className="homepage-after-title"
 							data-aos="fade-down-right"
 						>
-							<div className="homepage-articles">
+							{/* <div className="homepage-articles">
 								{freeTraining.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -295,7 +272,7 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
+							</div> */}
 
 							<div
 								className="homepage-works"
