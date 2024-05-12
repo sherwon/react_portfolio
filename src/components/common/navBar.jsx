@@ -1,136 +1,46 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Offcanvas from "react-bootstrap/Offcanvas";
 
-import "./styles/navBar.css";
-
-const NavBar = (props) => {
-	const { active } = props;
-	const [isChecked, setIsChecked] = useState(false);
-
-	const toggleCheckbox = () => {
-		setIsChecked(!isChecked);
-	};
-
+function NavBar() {
 	return (
-		<React.Fragment>
-			<div className="nav-container">
-				<nav className="navbar firstNav">
-					<div className="nav-background">
-						<ul className="nav-list">
-							<li
-								className={
-									active === "home"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/">Home</Link>
-							</li>
-							<li
-								className={
-									active === "about"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/about">About</Link>
-							</li>
-							<li
-								className={
-									active === "projects"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/projects">Projects</Link>
-							</li>
-							{/* <li
-								className={
-									active === "articles"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/articles">Training</Link>
-							</li> */}
-							<li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/contact">Contact</Link>
-							</li>
-						</ul>
-					</div>
-				</nav>
-				<nav className="navbar secondNav">
-					<div className="navbar-container container">
-						<input
-							type="checkbox"
-							name=""
-							id=""
-							checked={isChecked}
-							onChange={toggleCheckbox}
+		<>
+			{[false].map((expand, index) => (
+				<Navbar key={expand} expand={expand} className=" mb-3">
+					<Container fluid>
+						<Navbar.Brand href="#"></Navbar.Brand>
+						<Navbar.Toggle
+							aria-controls={`offcanvasNavbar-expand-${expand}`}
 						/>
-						<div className="hamburger-lines">
-							<span className="line line1"></span>
-							<span className="line line2"></span>
-							<span className="line line3"></span>
-						</div>
-						<ul className="menu-items">
-							<li
-								className={
-									active === "home"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/">Home</Link>
-							</li>
-							<li
-								className={
-									active === "about"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/about">About</Link>
-							</li>
-							<li
-								className={
-									active === "projects"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/projects">Projects</Link>
-							</li>
-							{/* <li
-								className={
-									active === "articles"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/articles">Training</Link>
-							</li> */}
-							<li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/contact">Contact</Link>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</React.Fragment>
+						<Navbar.Offcanvas
+							id={`offcanvasNavbar-expand-${expand}`}
+							aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+							placement="end"
+						>
+							<Offcanvas.Header closeButton>
+								<Offcanvas.Title
+									id={`offcanvasNavbarLabel-expand-${expand}`}
+								>
+									Software Engineer
+								</Offcanvas.Title>
+							</Offcanvas.Header>
+							<Offcanvas.Body>
+								<Nav className="justify-content-end flex-grow-1 pe-3">
+									<Nav.Link href="/">Home</Nav.Link>
+									<Nav.Link href="/about">About</Nav.Link>
+									<Nav.Link href="/projects">
+										Projects
+									</Nav.Link>
+									<Nav.Link href="/contact">Contact</Nav.Link>
+								</Nav>
+							</Offcanvas.Body>
+						</Navbar.Offcanvas>
+					</Container>
+				</Navbar>
+			))}
+		</>
 	);
-};
+}
 
 export default NavBar;
