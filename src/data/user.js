@@ -16,9 +16,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Web Developer",
+		title: "Software Engineer",
 		description:
-			"I am a skilled web developer specializing in Spring Boot, Node.js, React.js, and Vue.js. With a strong foundation in building scalable, secure, and reliable web applications using a variety of frameworks and technologies, I excel at solving complex problems and mastering new skills. My dedication to creating high-quality code that aligns with best practices and industry standards drives me to seek out fresh challenges and opportunities for growth as a developer.",
+			"I am a skilled Software Engineer specializing in Spring Boot, Node.js, React.js, and Vue.js. With a strong foundation in building scalable, secure, and reliable web applications using a variety of frameworks and technologies, I excel at solving complex problems and mastering new skills. My dedication to creating high-quality code that aligns with best practices and industry standards drives me to seek out fresh challenges and opportunities for growth as a developer.",
 	},
 
 	about: {
