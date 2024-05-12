@@ -16,9 +16,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Junior Fullstack Developer",
+		title: "Web Developer",
 		description:
-			"I am a fullstack developer with expertise in java. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a skilled web developer specializing in Spring Boot, Node.js, React.js, and Vue.js. With a strong foundation in building scalable, secure, and reliable web applications using a variety of frameworks and technologies, I excel at solving complex problems and mastering new skills. My dedication to creating high-quality code that aligns with best practices and industry standards drives me to seek out fresh challenges and opportunities for growth as a developer.",
 	},
 
 	about: {

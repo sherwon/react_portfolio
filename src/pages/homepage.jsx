@@ -106,7 +106,7 @@ const Homepage = () => {
 										data-aos="fade-down"
 									>
 										<div className="title homepage-title">
-											{INFO.homepage.title}
+											"{INFO.homepage.title}"
 										</div>
 
 										<div className="subtitle homepage-subtitle">
