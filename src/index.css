@@ -22,3 +22,10 @@ code {
 	/* font-weight: 700; */
 	text-transform: capitalize;
 }
+
+@media (max-width: 500px) {
+	.homepage-title {
+		font-size: 2rem !important;
+		text-align: center !important;
+	}
+}

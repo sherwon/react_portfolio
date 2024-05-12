@@ -189,6 +189,9 @@
 }
 
 @media (max-width: 500px) {
+	.homepage-projects {
+		padding: unset;
+	}
 	.carousel {
 		padding: 0px;
 		margin-top: 0px !important;
