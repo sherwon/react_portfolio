@@ -60,6 +60,14 @@ const INFO = {
 			link: "https://github.com/sherwon/product_management",
 		},
 		{
+			title: "Hotel System",
+			description:
+				"Create restfull api with some basic  functionallity to advance ex. CRUD operation, validation, autorization, authentication, table relationships",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgu8cRVSRm96BF4FEJ4DA9IROZYI1wYR0RRA&s",
+			linkText: "View Project",
+			link: "https://github.com/sherwon/hotel-management.git",
+		},
+		{
 			title: "Top Anime",
 			description:
 				"This project consists solely of HTML and CSS. However, the purpose of this practice is to achieve device responsiveness and browser compatibility. For responsiveness, the techniques utilized are CSS media queries, grid and flex.",
