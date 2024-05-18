@@ -20,6 +20,11 @@ const programmingSkills = [
 		experience: "5 years experience",
 	},
 	{
+		skill: "jquery",
+		img: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/256px-JQuery_logo.svg.png",
+		experience: "4 years experience",
+	},
+	{
 		skill: "java",
 		img: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
 		experience: "5 years experience",
@@ -27,22 +32,32 @@ const programmingSkills = [
 	{
 		skill: "c#",
 		img: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
-		experience: "No Experience",
+		experience: "No experience",
 	},
 	{
-		skill: "Vue.js + vuex",
+		skill: "Vue.js",
 		img: "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
 		experience: "1 year experience",
 	},
 	{
-		skill: "React.js + Redux",
+		skill: "Vuex",
+		img: "https://upload.wikimedia.org/wikipedia/commons/2/27/Vuex_Logo.png",
+		experience: "1 year experience",
+	},
+	{
+		skill: "React.js",
 		img: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+		experience: "1.5 years experience",
+	},
+	{
+		skill: "Redux",
+		img: "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
 		experience: "1.5 years experience",
 	},
 	{
 		skill: "Node.js",
 		img: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
-		experience: "1 years experience",
+		experience: "1 year experience",
 	},
 	{
 		skill: "Spring boot",
@@ -77,22 +92,33 @@ const programmingSkills = [
 	{
 		skill: "jira",
 		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Jira_%28Software%29_logo.svg/375px-Jira_%28Software%29_logo.svg.png",
-		experience: "1.6 year experience",
+		experience: "1.6 years experience",
 	},
+	{
+		skill: "php",
+		img: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+		experience: "3 years experience",
+	},
+	{
+		skill: "codeigniter",
+		img: "https://upload.wikimedia.org/wikipedia/commons/8/80/CodeIgniter_logo.png",
+		experience: "2 years experience",
+	},
+	// Uncomment and update experience if needed
 	// {
-	// 	skill: "problem solving",
-	// 	img: "https://upload.wikimedia.org/wikipedia/commons/5/53/Problem_Solving_icon.svg",
-	// 	experience: "5 years experience",
+	//     skill: "problem solving",
+	//     img: "https://upload.wikimedia.org/wikipedia/commons/5/53/Problem_Solving_icon.svg",
+	//     experience: "5 years experience",
 	// },
 	// {
-	// 	skill: "Colaboration",
-	// 	img: "https://upload.wikimedia.org/wikipedia/commons/5/55/Collaboration.png",
-	// 	experience: "5 years experience",
+	//     skill: "Collaboration",
+	//     img: "https://upload.wikimedia.org/wikipedia/commons/5/55/Collaboration.png",
+	//     experience: "5 years experience",
 	// },
 	// {
-	// 	skill: "Active listening",
-	// 	img: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Active_Listening.svg",
-	// 	experience: "5 years experience",
+	//     skill: "Active listening",
+	//     img: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Active_Listening.svg",
+	//     experience: "5 years experience",
 	// },
 ];
 

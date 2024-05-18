@@ -68,12 +68,100 @@ const INFO = {
 			link: "https://github.com/sherwon/hotel-management.git",
 		},
 		{
+			title: "Hotel reservation v2",
+			description:
+				"Create restfull api with some basic  functionallity to advance ex. CRUD operation, validation, autorization, authentication, table relationships, email authentication",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgu8cRVSRm96BF4FEJ4DA9IROZYI1wYR0RRA&s",
+			linkText: "View Project",
+			link: "https://github.com/sherwon/Hotel-reservation.git",
+		},
+		{
 			title: "Top Anime",
 			description:
 				"This project consists solely of HTML and CSS. However, the purpose of this practice is to achieve device responsiveness and browser compatibility. For responsiveness, the techniques utilized are CSS media queries, grid and flex.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://6630a2217519e992454bfd89--relaxed-sable-25fdc6.netlify.app/",
+		},
+		{
+			title: "Survey form",
+			description:
+				"This project for freecodecamp certification consists solely of HTML and CSS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/pen/vYeQbQr?editors=0100",
+		},
+		{
+			title: "Build a Tribute Page",
+			description:
+				"This project for freecodecamp certification consists solely of HTML and CSS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/pen/mdwGpwQ?editors=1100",
+		},
+		{
+			title: "Build a Technical Documentation Page",
+			description:
+				"This project for freecodecamp certification consists solely of HTML and CSS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/pen/PoJXdKG",
+		},
+		{
+			title: "Build a Product Landing Page",
+			description:
+				"This project for freecodecamp certification consists solely of HTML and CSS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/full/rNGoBpx",
+		},
+		{
+			title: "Build a Personal Portfolio Webpage",
+			description:
+				"This project for freecodecamp certification consists solely of HTML and CSS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/pen/KKXJzWb?editors=1100",
+		},
+		{
+			title: "Build a Random Quote Machine",
+			description:
+				"This project for freecodecamp certification consists solely of HTML, CSS and JS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/full/GRONNjw",
+		},
+		{
+			title: "Build a Markdown Previewer",
+			description:
+				"This project for freecodecamp certification consists solely of HTML, CSS and JS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/pen/JjxebNx",
+		},
+		{
+			title: "Build a Drum Machine",
+			description:
+				"This project for freecodecamp certification consists solely of HTML, CSS and JS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/pen/XWOyNEx",
+		},
+		{
+			title: "Build a JavaScript Calculator",
+			description:
+				"This project for freecodecamp certification consists solely of HTML, CSS, JS and Jquery.",
+			logo: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/256px-JQuery_logo.svg.png",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/pen/eYxQBjL",
+		},
+		{
+			title: "Build a 25 + 5 Clock",
+			description:
+				"This project for freecodecamp certification consists solely of HTML, CSS, JS and React.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+			linkText: "View Project",
+			link: "https://codepen.io/sherwin-sayo/pen/OJdaboW?editors=1010",
 		},
 	],
 
