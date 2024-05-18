@@ -17,6 +17,7 @@ import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import Skills from "../components/common/Skills";
 
 import "./styles/homepage.css";
 import "./styles/box.css";
@@ -233,6 +234,15 @@ const Homepage = () => {
 								</section>
 							</section>
 						</div> */}
+						<div
+							className="homepage-projects"
+							data-aos="fade-right"
+						>
+							<div className="title homepage-title">
+								Web Development skills
+							</div>
+							<Skills />
+						</div>
 						<div
 							className="homepage-projects"
 							data-aos="fade-right"
