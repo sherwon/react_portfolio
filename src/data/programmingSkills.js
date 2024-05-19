@@ -2,32 +2,37 @@ const programmingSkills = [
 	{
 		skill: "html",
 		img: "https://cdn.freebiesupply.com/logos/large/2x/html-5-logo-png-transparent.png",
-		experience: "5 years experience",
+		experience: "2 years experience",
 	},
 	{
 		skill: "css",
 		img: "https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg",
-		experience: "5 years experience",
+		experience: "2 years experience",
 	},
 	{
 		skill: "bootstrap",
 		img: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-		experience: "5 years experience",
+		experience: "2 years experience",
 	},
 	{
 		skill: "js",
 		img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-		experience: "5 years experience",
+		experience: "2 years experience",
 	},
 	{
 		skill: "jquery",
 		img: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/256px-JQuery_logo.svg.png",
-		experience: "4 years experience",
+		experience: "1 years experience",
 	},
 	{
 		skill: "java",
 		img: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
-		experience: "5 years experience",
+		experience: "2 years experience",
+	},
+	{
+		skill: "Spring boot",
+		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/768px-Spring_Boot.svg.png",
+		experience: "2 years experience",
 	},
 	{
 		skill: "c#",
@@ -37,12 +42,12 @@ const programmingSkills = [
 	{
 		skill: "Vue.js",
 		img: "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
-		experience: "1 year experience",
+		experience: "1.6 year experience",
 	},
 	{
 		skill: "Vuex",
 		img: "https://upload.wikimedia.org/wikipedia/commons/2/27/Vuex_Logo.png",
-		experience: "1 year experience",
+		experience: "1.6 year experience",
 	},
 	{
 		skill: "React.js",
@@ -59,11 +64,7 @@ const programmingSkills = [
 		img: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
 		experience: "1 year experience",
 	},
-	{
-		skill: "Spring boot",
-		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/768px-Spring_Boot.svg.png",
-		experience: "2 years experience",
-	},
+
 	{
 		skill: "OOP",
 		img: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Object-oriented_programming.svg",
@@ -82,7 +83,7 @@ const programmingSkills = [
 	{
 		skill: "Msql",
 		img: "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/150px-MySQL_logo.svg.png",
-		experience: "3 years experience",
+		experience: "2 years experience",
 	},
 	{
 		skill: "git",
@@ -97,12 +98,12 @@ const programmingSkills = [
 	{
 		skill: "php",
 		img: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
-		experience: "3 years experience",
+		experience: "1 years experience",
 	},
 	{
 		skill: "codeigniter",
 		img: "https://upload.wikimedia.org/wikipedia/commons/8/80/CodeIgniter_logo.png",
-		experience: "2 years experience",
+		experience: "1 years experience",
 	},
 	// Uncomment and update experience if needed
 	// {
